@@ -13,16 +13,6 @@
             "hash": "6f6aa7ae2c07ccb3bb4f4a30e2a57d0d3ed26807706e66595c730ef3a41c983f"
         }
     },
-    "pre_install": [
-        "foreach ($name in @('config.json')) {",
-        "    if (!(Test-Path \"$persist_dir\\$name\")) {",
-        "        New-Item -Force -Path \"$dir\" -Name $name | Out-Null",
-        "    }",
-        "}",
-        "if (!(Test-Path \"$persist_dir\\winXray-default-servers.json\")) {",
-        "    Copy-Item \"$(appdir winXray $global)\\current\\xray-core\\winXray-default-servers.json\" \"$dir\" | Out-Null",
-        "}"
-    ],
     "bin": "winXray.exe",
     "shortcuts": [
         [
@@ -31,7 +21,7 @@
         ]
     ],
     "persist": [
-        "config.json",
-        "winXray-default-servers.json"
+        "xray-core\\config.json",
+        "xray-core\\winXray-default-servers.json"
     ]
 }
