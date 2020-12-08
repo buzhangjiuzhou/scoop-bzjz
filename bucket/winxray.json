@@ -20,6 +20,20 @@
             "winXray"
         ]
     ],
+    "pre_install": [
+        "function CreateFile([String] $file, [String] $content = $null) {",
+        "    if (!(Test-Path \"$persist_dir\\xray-core\\$file\")) {",
+        "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
+        "    }",
+        "}",
+        "function CopyFile([String] $file, [String] $content = $null) {",
+        "    if (!(Test-Path \"$persist_dir\\xray-core\\$file\")) {",
+        "        Copy-Item \"$(appdir v2ray $global)\\current\\xray-core\\winXray-default-servers.json\" \"$persist_dir\\xray-core\" | Out-Null",
+        "    }",
+        "}",
+        "CreateFile 'config.json'",
+        "CopyFile 'winXray-default-servers.json'"
+    ],
     "persist": [
         "xray-core\\config.json",
         "xray-core\\winXray-default-servers.json"
