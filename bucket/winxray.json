@@ -10,7 +10,7 @@
         },
         "32bit": {
             "url": "https://raw.githubusercontent.com/winXray/winXray/master/release/winXray32.7z",
-            "hash": "0c857388294ae9a5a09f989f42807abd146278ed0eece2e0099383e4fd352396"
+            "hash": "6f6aa7ae2c07ccb3bb4f4a30e2a57d0d3ed26807706e66595c730ef3a41c983f"
         }
     },
     "pre_install": [
