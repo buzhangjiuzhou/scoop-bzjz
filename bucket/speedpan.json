@@ -1,0 +1,16 @@
+{
+    "version": "1.9.81.198",
+    "description": "A software used to download from baidu disk without speed limited.",
+    "homepage": "https://www.speedpan-x.com/",
+    "license": "Commercial",
+    "url": "https://download.supanx.com/SpeedPanX_1981.zip",
+    "hash": "108cff9e870afaa26d2d5476dc5af77b5ccce7abac4af0c8692e0da8467792ca",
+    "bin": "SpeedPanX.exe",
+    "extract_dir": "SpeedPanX",
+    "shortcuts": [
+        [
+            "SpeedPanX.exe",
+            "SpeedPanX"
+        ]
+    ]
+}
