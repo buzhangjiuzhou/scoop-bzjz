@@ -23,7 +23,7 @@
     "pre_install": [
         "function CreateFile([String] $file, [String] $content = $null) {",
         "    if (!(Test-Path \"$persist_dir\\xray-core\\$file\")) {",
-        "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
+        "        New-Item \"$persist_dir\\$file\" | Out-Null",
         "    }",
         "}",
         "function CopyFile([String] $file, [String] $content = $null) {",
