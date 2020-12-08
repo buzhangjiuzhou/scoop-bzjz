@@ -18,7 +18,6 @@
         "    Copy-Item \"$(appdir winXray $global)\\current\\xray-core\\config.json\" \"$dir\" | Out-Null",
         "}"
     ],
-    "extract_dir": "winXray",
     "bin": "winXray.exe",
     "shortcuts": [
         [
