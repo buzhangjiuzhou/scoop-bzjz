@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://raw.githubusercontent.com/winXray/winXray/master/release/winXray.7z",
-            "hash": "0c857388294ae9a5a09f989f42807abd146278ed0eece2e0099383e4fd352396"
+            "hash": "89cf598fa2cb2dc27ba094a3d359bce9f9e3118eb20baafd4b47569793847228"
         },
         "32bit": {
             "url": "https://raw.githubusercontent.com/winXray/winXray/master/release/winXray32.7z",
