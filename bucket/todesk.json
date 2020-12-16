@@ -1,0 +1,22 @@
+{
+    "homepage": "https://www.todesk.com/",
+    "license": "freeware",
+    "version": "2.0.4-Beta",
+    "url": "https://update.todesk.com/ToDesk_Setup_2.0.4.0.exe",
+    "hash": "a335bf5d5f55b48dfac3237cab0031378d94f554ef05c793a67ac6be8f981337",
+    "innosetup": true,
+    "bin": [
+        "ToDesk.exe",
+        "ToDesk_Service.exe",
+        "ToDesk_Session.exe"
+    ],
+    "shortcuts": [
+        [
+            "ToDesk.exe",
+            "ToDesk"
+        ]
+    ],
+    "autoupdate": {
+        "url": "https://update.todesk.com/ToDesk_Setup_2.0.4.0.exe"
+    }
+}
