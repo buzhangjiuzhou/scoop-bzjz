@@ -4,8 +4,8 @@
     "version": "5.46.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v0.5.4c/Sandboxie-Classic-x64-v5.46.2.exe#/setup.exe",
-            "hash": "64114b8c428e7fee3820a7fa34f067a2bd61b6321bd6366249682b8ac43357c2",
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.6.5/Sandboxie-Classic-x64-v5.47.0.exe#/setup.exe",
+            "hash": "094c3e3fb03ca995cb7ca2d6bf8e90714c29d41abfbef791cfe6dedf714010f0",
             "installer": {
                 "script": [
                     "Invoke-ExternalCommand \"$dir\\setup.exe\" -ArgumentList @('/lang=2052','/install','/S',\"/D=$dir\") -RunAs | Out-Null",
