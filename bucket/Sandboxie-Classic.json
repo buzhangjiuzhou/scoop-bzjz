@@ -1,7 +1,7 @@
 {
     "homepage": "https://github.com/sandboxie-plus/Sandboxie",
     "description": "Sandboxie uses isolation technology to separate programs from your underlying operating system preventing unwanted changes from happening to your personal data, programs and applications that rest safely on your hard drive.  And this is for win10 used by myself.",
-    "version": "5.46.2",
+    "version": "5.47.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.6.5/Sandboxie-Classic-x64-v5.47.0.exe#/setup.exe",
