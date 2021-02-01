@@ -18,6 +18,6 @@
                     "Invoke-ExternalCommand \"$uninstaller\" -ArgumentList @('/remove','/S') -RunAs | Out-Null"
                 ]
             }
-        },
+        }
     }
 }
